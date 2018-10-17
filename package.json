@@ -1,0 +1,34 @@
+{
+  "name": "election",
+  "version": "1.0.0",
+  "description": "The election dapp",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "development": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Dapp",
+    "Ethereum",
+    "Blockchain",
+    "Nodejs"
+  ],
+  "author": "Nguyen Anh Vu",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "live-server": "^1.2.0",
+    "popper.js": "^1.14.4",
+    "truffle-contract": "^3.0.6",
+    "web3": "^1.0.0-beta.36",
+    "webpack-mix": "^2.0.2"
+  }
+}
