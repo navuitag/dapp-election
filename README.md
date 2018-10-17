@@ -39,7 +39,9 @@ This is an example about the Ethereum Dapp.
 ### 4. Compile Smart contract
 
 ~~~bash
-    truffle migrate --reset --compile-all
+    truffle console --network ganache
+    migrate --reset --compile-all
+    .exit
 ~~~
 
 ### 5. Build frontend app
